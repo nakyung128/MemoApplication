@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E520D29C48FD200ACB05C /* AppDelegate.swift */; };
 		F38E521029C48FD200ACB05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E520F29C48FD200ACB05C /* SceneDelegate.swift */; };
-		F38E521229C48FD200ACB05C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E521129C48FD200ACB05C /* ViewController.swift */; };
 		F38E521529C48FD200ACB05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38E521329C48FD200ACB05C /* Main.storyboard */; };
 		F38E521829C48FD200ACB05C /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F38E521629C48FD200ACB05C /* MyMemory.xcdatamodeld */; };
 		F38E521A29C48FD300ACB05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38E521929C48FD300ACB05C /* Assets.xcassets */; };
 		F38E521D29C48FD300ACB05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38E521B29C48FD300ACB05C /* LaunchScreen.storyboard */; };
+		F38E522529C4A2B200ACB05C /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522429C4A2B200ACB05C /* MemoListVC.swift */; };
+		F38E522B29C4A73E00ACB05C /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522A29C4A73E00ACB05C /* MemoFormVC.swift */; };
+		F38E522D29C4A74F00ACB05C /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */; };
+		F38E522F29C4A84700ACB05C /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522E29C4A84700ACB05C /* MemoCell.swift */; };
+		F38E523129C4A8A400ACB05C /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E523029C4A8A400ACB05C /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F38E520A29C48FD200ACB05C /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38E520D29C48FD200ACB05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F38E520F29C48FD200ACB05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F38E521129C48FD200ACB05C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F38E521429C48FD200ACB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F38E521729C48FD200ACB05C /* MyMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMemory.xcdatamodel; sourceTree = "<group>"; };
 		F38E521929C48FD300ACB05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F38E521C29C48FD300ACB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F38E521E29C48FD300ACB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38E522429C4A2B200ACB05C /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		F38E522A29C4A73E00ACB05C /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		F38E522E29C4A84700ACB05C /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		F38E523029C4A8A400ACB05C /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				F38E520D29C48FD200ACB05C /* AppDelegate.swift */,
 				F38E520F29C48FD200ACB05C /* SceneDelegate.swift */,
-				F38E521129C48FD200ACB05C /* ViewController.swift */,
 				F38E521329C48FD200ACB05C /* Main.storyboard */,
 				F38E521929C48FD300ACB05C /* Assets.xcassets */,
 				F38E521B29C48FD300ACB05C /* LaunchScreen.storyboard */,
 				F38E521E29C48FD300ACB05C /* Info.plist */,
 				F38E521629C48FD200ACB05C /* MyMemory.xcdatamodeld */,
+				F38E522429C4A2B200ACB05C /* MemoListVC.swift */,
+				F38E522A29C4A73E00ACB05C /* MemoFormVC.swift */,
+				F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */,
+				F38E522E29C4A84700ACB05C /* MemoCell.swift */,
+				F38E523029C4A8A400ACB05C /* MemoData.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -141,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38E522F29C4A84700ACB05C /* MemoCell.swift in Sources */,
+				F38E523129C4A8A400ACB05C /* MemoData.swift in Sources */,
 				F38E521829C48FD200ACB05C /* MyMemory.xcdatamodeld in Sources */,
-				F38E521229C48FD200ACB05C /* ViewController.swift in Sources */,
+				F38E522B29C4A73E00ACB05C /* MemoFormVC.swift in Sources */,
+				F38E522D29C4A74F00ACB05C /* MemoReadVC.swift in Sources */,
 				F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */,
+				F38E522529C4A2B200ACB05C /* MemoListVC.swift in Sources */,
 				F38E521029C48FD200ACB05C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,13 +307,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FBW424TX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMemory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,13 +334,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FBW424TX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMemory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
