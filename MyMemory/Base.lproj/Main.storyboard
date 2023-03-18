@@ -78,6 +78,7 @@
                                     <outlet property="contents" destination="Xl9-b7-Nem" id="nha-aH-NwU"/>
                                     <outlet property="regdate" destination="ED9-jh-1ap" id="N4T-Xn-IuB"/>
                                     <outlet property="subject" destination="Ft2-mZ-ipY" id="jkP-gM-yRa"/>
+                                    <segue destination="7Hd-kE-ZQD" kind="show" identifier="memoCellSg" id="r2L-QT-mDf"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="memoCellWithImage" rowHeight="80" id="5VI-Or-kO0" customClass="MemoCell" customModule="MyMemory" customModuleProvider="target">
@@ -144,6 +145,7 @@
                                     <outlet property="img" destination="bGQ-2A-Y0n" id="jBE-pQ-xRT"/>
                                     <outlet property="regdate" destination="pBe-iY-mGU" id="hwN-qQ-pTX"/>
                                     <outlet property="subject" destination="ZmB-8F-YXC" id="3kg-5H-L1D"/>
+                                    <segue destination="7Hd-kE-ZQD" kind="show" identifier="memoCellWithImgSg" id="QsL-2o-0jT"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -243,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p03-3h-0Nd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="504.80000000000001" y="-752.47376311844084"/>
+            <point key="canvasLocation" x="724" y="-744"/>
         </scene>
         <!--상세 화면-->
         <scene sceneID="gVy-kj-JMK">
@@ -300,9 +302,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmh-Bo-qoz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="408.80000000000001" y="-1450.5247376311845"/>
+            <point key="canvasLocation" x="1666" y="-55"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="QsL-2o-0jT"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

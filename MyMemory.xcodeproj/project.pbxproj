@@ -18,6 +18,7 @@
 		F38E522D29C4A74F00ACB05C /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */; };
 		F38E522F29C4A84700ACB05C /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522E29C4A84700ACB05C /* MemoCell.swift */; };
 		F38E523129C4A8A400ACB05C /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E523029C4A8A400ACB05C /* MemoData.swift */; };
+		F3EE242D29C62452002BA58C /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3EE242C29C62452002BA58C /* fountainpen@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		F38E522E29C4A84700ACB05C /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		F38E523029C4A8A400ACB05C /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		F3EE242C29C62452002BA58C /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fountainpen@2x.png"; path = "../../../Downloads/Chapter01/MyMemory/fountainpen@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		F38E520129C48FD200ACB05C = {
 			isa = PBXGroup;
 			children = (
+				F3EE242B29C6241A002BA58C /* Resources */,
 				F38E520C29C48FD200ACB05C /* MyMemory */,
 				F38E520B29C48FD200ACB05C /* Products */,
 			);
@@ -80,6 +83,14 @@
 				F38E523029C4A8A400ACB05C /* MemoData.swift */,
 			);
 			path = MyMemory;
+			sourceTree = "<group>";
+		};
+		F3EE242B29C6241A002BA58C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE242C29C62452002BA58C /* fountainpen@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			files = (
 				F38E521D29C48FD300ACB05C /* LaunchScreen.storyboard in Resources */,
 				F38E521A29C48FD300ACB05C /* Assets.xcassets in Resources */,
+				F3EE242D29C62452002BA58C /* fountainpen@2x.png in Resources */,
 				F38E521529C48FD200ACB05C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,8 +322,11 @@
 				DEVELOPMENT_TEAM = 8FBW424TX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMemory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "페이퍼-잇";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,8 +352,11 @@
 				DEVELOPMENT_TEAM = 8FBW424TX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMemory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "페이퍼-잇";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
