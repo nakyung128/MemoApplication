@@ -18,7 +18,11 @@
 		F38E522D29C4A74F00ACB05C /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */; };
 		F38E522F29C4A84700ACB05C /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E522E29C4A84700ACB05C /* MemoCell.swift */; };
 		F38E523129C4A8A400ACB05C /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E523029C4A8A400ACB05C /* MemoData.swift */; };
-		F3EE242D29C62452002BA58C /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3EE242C29C62452002BA58C /* fountainpen@2x.png */; };
+		F3E4096729CCC3A100D3DDB5 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4096629CCC3A100D3DDB5 /* CSLogButton.swift */; };
+		F3E4096C29CCC46400D3DDB5 /* fountainpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E4096829CCC46400D3DDB5 /* fountainpen@2x.png */; };
+		F3E4096D29CCC46400D3DDB5 /* warning-icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E4096929CCC46400D3DDB5 /* warning-icon-60@2x.png */; };
+		F3E4096E29CCC46400D3DDB5 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E4096A29CCC46400D3DDB5 /* button-bg.png */; };
+		F3E4096F29CCC46400D3DDB5 /* memo-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E4096B29CCC46400D3DDB5 /* memo-background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +39,11 @@
 		F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		F38E522E29C4A84700ACB05C /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		F38E523029C4A8A400ACB05C /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
-		F3EE242C29C62452002BA58C /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fountainpen@2x.png"; path = "../../../Downloads/Chapter01/MyMemory/fountainpen@2x.png"; sourceTree = "<group>"; };
+		F3E4096629CCC3A100D3DDB5 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		F3E4096829CCC46400D3DDB5 /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fountainpen@2x.png"; sourceTree = "<group>"; };
+		F3E4096929CCC46400D3DDB5 /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon-60@2x.png"; sourceTree = "<group>"; };
+		F3E4096A29CCC46400D3DDB5 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
+		F3E4096B29CCC46400D3DDB5 /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memo-background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 				F38E522C29C4A74F00ACB05C /* MemoReadVC.swift */,
 				F38E522E29C4A84700ACB05C /* MemoCell.swift */,
 				F38E523029C4A8A400ACB05C /* MemoData.swift */,
+				F3E4096629CCC3A100D3DDB5 /* CSLogButton.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -88,7 +97,10 @@
 		F3EE242B29C6241A002BA58C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F3EE242C29C62452002BA58C /* fountainpen@2x.png */,
+				F3E4096A29CCC46400D3DDB5 /* button-bg.png */,
+				F3E4096829CCC46400D3DDB5 /* fountainpen@2x.png */,
+				F3E4096B29CCC46400D3DDB5 /* memo-background@2x.png */,
+				F3E4096929CCC46400D3DDB5 /* warning-icon-60@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -153,7 +165,10 @@
 			files = (
 				F38E521D29C48FD300ACB05C /* LaunchScreen.storyboard in Resources */,
 				F38E521A29C48FD300ACB05C /* Assets.xcassets in Resources */,
-				F3EE242D29C62452002BA58C /* fountainpen@2x.png in Resources */,
+				F3E4096C29CCC46400D3DDB5 /* fountainpen@2x.png in Resources */,
+				F3E4096E29CCC46400D3DDB5 /* button-bg.png in Resources */,
+				F3E4096D29CCC46400D3DDB5 /* warning-icon-60@2x.png in Resources */,
+				F3E4096F29CCC46400D3DDB5 /* memo-background@2x.png in Resources */,
 				F38E521529C48FD200ACB05C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E4096729CCC3A100D3DDB5 /* CSLogButton.swift in Sources */,
 				F38E522F29C4A84700ACB05C /* MemoCell.swift in Sources */,
 				F38E523129C4A8A400ACB05C /* MemoData.swift in Sources */,
 				F38E521829C48FD200ACB05C /* MyMemory.xcdatamodeld in Sources */,
