@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F364810D29D2071F0051C7FD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F364810C29D2071F0051C7FD /* SWRevealViewController.m */; };
+		F364811729D207440051C7FD /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = F364810E29D207440051C7FD /* sidemenu.png */; };
+		F364811829D207440051C7FD /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = F364810F29D207440051C7FD /* icon04.png */; };
+		F364811929D207440051C7FD /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = F364811029D207440051C7FD /* icon03.png */; };
+		F364811A29D207440051C7FD /* icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = F364811129D207440051C7FD /* icon02.png */; };
+		F364811B29D207440051C7FD /* icon01.png in Resources */ = {isa = PBXBuildFile; fileRef = F364811229D207440051C7FD /* icon01.png */; };
+		F364811C29D207440051C7FD /* profile-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F364811329D207440051C7FD /* profile-bg.png */; };
+		F364811D29D207440051C7FD /* icon05.png in Resources */ = {isa = PBXBuildFile; fileRef = F364811429D207440051C7FD /* icon05.png */; };
+		F364811E29D207440051C7FD /* icon06.png in Resources */ = {isa = PBXBuildFile; fileRef = F364811529D207440051C7FD /* icon06.png */; };
+		F364811F29D207440051C7FD /* account@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F364811629D207440051C7FD /* account@2x.jpg */; };
 		F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E520D29C48FD200ACB05C /* AppDelegate.swift */; };
 		F38E521029C48FD200ACB05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E520F29C48FD200ACB05C /* SceneDelegate.swift */; };
 		F38E521529C48FD200ACB05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38E521329C48FD200ACB05C /* Main.storyboard */; };
@@ -26,6 +36,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F364810A29D2071F0051C7FD /* MyMemory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMemory-Bridging-Header.h"; sourceTree = "<group>"; };
+		F364810B29D2071F0051C7FD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F364810C29D2071F0051C7FD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F364810E29D207440051C7FD /* sidemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidemenu.png; sourceTree = "<group>"; };
+		F364810F29D207440051C7FD /* icon04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon04.png; sourceTree = "<group>"; };
+		F364811029D207440051C7FD /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
+		F364811129D207440051C7FD /* icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon02.png; sourceTree = "<group>"; };
+		F364811229D207440051C7FD /* icon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon01.png; sourceTree = "<group>"; };
+		F364811329D207440051C7FD /* profile-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-bg.png"; sourceTree = "<group>"; };
+		F364811429D207440051C7FD /* icon05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon05.png; sourceTree = "<group>"; };
+		F364811529D207440051C7FD /* icon06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon06.png; sourceTree = "<group>"; };
+		F364811629D207440051C7FD /* account@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "account@2x.jpg"; sourceTree = "<group>"; };
 		F38E520A29C48FD200ACB05C /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38E520D29C48FD200ACB05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F38E520F29C48FD200ACB05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +112,9 @@
 				F38E522E29C4A84700ACB05C /* MemoCell.swift */,
 				F38E523029C4A8A400ACB05C /* MemoData.swift */,
 				F3E4096629CCC3A100D3DDB5 /* CSLogButton.swift */,
+				F364810B29D2071F0051C7FD /* SWRevealViewController.h */,
+				F364810C29D2071F0051C7FD /* SWRevealViewController.m */,
+				F364810A29D2071F0051C7FD /* MyMemory-Bridging-Header.h */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -97,6 +122,15 @@
 		F3EE242B29C6241A002BA58C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F364811629D207440051C7FD /* account@2x.jpg */,
+				F364811229D207440051C7FD /* icon01.png */,
+				F364811129D207440051C7FD /* icon02.png */,
+				F364811029D207440051C7FD /* icon03.png */,
+				F364810F29D207440051C7FD /* icon04.png */,
+				F364811429D207440051C7FD /* icon05.png */,
+				F364811529D207440051C7FD /* icon06.png */,
+				F364811329D207440051C7FD /* profile-bg.png */,
+				F364810E29D207440051C7FD /* sidemenu.png */,
 				F3E4096A29CCC46400D3DDB5 /* button-bg.png */,
 				F3E4096829CCC46400D3DDB5 /* fountainpen@2x.png */,
 				F3E4096B29CCC46400D3DDB5 /* memo-background@2x.png */,
@@ -137,6 +171,7 @@
 				TargetAttributes = {
 					F38E520929C48FD200ACB05C = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -164,12 +199,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38E521D29C48FD300ACB05C /* LaunchScreen.storyboard in Resources */,
+				F364811C29D207440051C7FD /* profile-bg.png in Resources */,
+				F364811729D207440051C7FD /* sidemenu.png in Resources */,
 				F38E521A29C48FD300ACB05C /* Assets.xcassets in Resources */,
+				F364811F29D207440051C7FD /* account@2x.jpg in Resources */,
 				F3E4096C29CCC46400D3DDB5 /* fountainpen@2x.png in Resources */,
 				F3E4096E29CCC46400D3DDB5 /* button-bg.png in Resources */,
+				F364811829D207440051C7FD /* icon04.png in Resources */,
+				F364811D29D207440051C7FD /* icon05.png in Resources */,
 				F3E4096D29CCC46400D3DDB5 /* warning-icon-60@2x.png in Resources */,
+				F364811E29D207440051C7FD /* icon06.png in Resources */,
+				F364811A29D207440051C7FD /* icon02.png in Resources */,
 				F3E4096F29CCC46400D3DDB5 /* memo-background@2x.png in Resources */,
 				F38E521529C48FD200ACB05C /* Main.storyboard in Resources */,
+				F364811929D207440051C7FD /* icon03.png in Resources */,
+				F364811B29D207440051C7FD /* icon01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +231,7 @@
 				F38E522B29C4A73E00ACB05C /* MemoFormVC.swift in Sources */,
 				F38E522D29C4A74F00ACB05C /* MemoReadVC.swift in Sources */,
 				F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */,
+				F364810D29D2071F0051C7FD /* SWRevealViewController.m in Sources */,
 				F38E522529C4A2B200ACB05C /* MemoListVC.swift in Sources */,
 				F38E521029C48FD200ACB05C /* SceneDelegate.swift in Sources */,
 			);
@@ -333,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8FBW424TX4;
@@ -353,6 +399,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nakyung.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMemory/MyMemory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8FBW424TX4;
@@ -383,6 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nakyung.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMemory/MyMemory-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
