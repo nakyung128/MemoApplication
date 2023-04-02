@@ -19,6 +19,7 @@
 		F364811F29D207440051C7FD /* account@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F364811629D207440051C7FD /* account@2x.jpg */; };
 		F364812129D20A100051C7FD /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364812029D20A100051C7FD /* SideBarVC.swift */; };
 		F364812329D2102D0051C7FD /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F364812229D2102D0051C7FD /* ProfileVC.swift */; };
+		F3874C1C29D9C901003F3430 /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3874C1B29D9C901003F3430 /* UserInfoManager.swift */; };
 		F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E520D29C48FD200ACB05C /* AppDelegate.swift */; };
 		F38E521029C48FD200ACB05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E520F29C48FD200ACB05C /* SceneDelegate.swift */; };
 		F38E521529C48FD200ACB05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38E521329C48FD200ACB05C /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		F364811629D207440051C7FD /* account@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "account@2x.jpg"; sourceTree = "<group>"; };
 		F364812029D20A100051C7FD /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
 		F364812229D2102D0051C7FD /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F3874C1B29D9C901003F3430 /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		F38E520A29C48FD200ACB05C /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38E520D29C48FD200ACB05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F38E520F29C48FD200ACB05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				F364810A29D2071F0051C7FD /* MyMemory-Bridging-Header.h */,
 				F364812029D20A100051C7FD /* SideBarVC.swift */,
 				F364812229D2102D0051C7FD /* ProfileVC.swift */,
+				F3874C1B29D9C901003F3430 /* UserInfoManager.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */,
 				F364810D29D2071F0051C7FD /* SWRevealViewController.m in Sources */,
 				F38E522529C4A2B200ACB05C /* MemoListVC.swift in Sources */,
+				F3874C1C29D9C901003F3430 /* UserInfoManager.swift in Sources */,
 				F38E521029C48FD200ACB05C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
