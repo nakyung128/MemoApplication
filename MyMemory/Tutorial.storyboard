@@ -11,7 +11,7 @@
         <!--마스터 뷰 컨트롤러-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="MasterVC" title="마스터 뷰 컨트롤러" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MasterVC" title="마스터 뷰 컨트롤러" id="Y6W-OH-hqX" customClass="TutorialMasterVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,6 +23,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="시작하기"/>
+                                <connections>
+                                    <action selector="close:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="SIJ-Dr-lTy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -48,7 +51,7 @@
         <!--콘텐츠 01~04-->
         <scene sceneID="B7O-ix-Nar">
             <objects>
-                <viewController storyboardIdentifier="ContentsVC" title="콘텐츠 01~04" id="X5O-GH-GjG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentsVC" title="콘텐츠 01~04" id="X5O-GH-GjG" customClass="TutorialContentVC" customModule="MyMemory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ELg-ao-jp2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,6 +80,10 @@
                             <constraint firstItem="9Mf-XL-KZu" firstAttribute="leading" secondItem="ELg-ao-jp2" secondAttribute="leading" id="q1Q-ko-WMf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bgImageView" destination="9Mf-XL-KZu" id="ZnX-2N-3kq"/>
+                        <outlet property="titleLabel" destination="UTg-Ls-ujO" id="V0T-lM-ri2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cMk-eg-ICk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

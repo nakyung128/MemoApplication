@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F346DC1129DB30F70048A3DE /* TutorialContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346DC1029DB30F70048A3DE /* TutorialContentVC.swift */; };
+		F346DC1329DB33C60048A3DE /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346DC1229DB33C60048A3DE /* TutorialMasterVC.swift */; };
 		F364810D29D2071F0051C7FD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F364810C29D2071F0051C7FD /* SWRevealViewController.m */; };
 		F364811729D207440051C7FD /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = F364810E29D207440051C7FD /* sidemenu.png */; };
 		F364811829D207440051C7FD /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = F364810F29D207440051C7FD /* icon04.png */; };
@@ -41,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F346DC1029DB30F70048A3DE /* TutorialContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentVC.swift; sourceTree = "<group>"; };
+		F346DC1229DB33C60048A3DE /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
 		F364810A29D2071F0051C7FD /* MyMemory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMemory-Bridging-Header.h"; sourceTree = "<group>"; };
 		F364810B29D2071F0051C7FD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		F364810C29D2071F0051C7FD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				F3874C1B29D9C901003F3430 /* UserInfoManager.swift */,
 				F3874C1D29D9F133003F3430 /* Tutorial.storyboard */,
 				F3874C1F29D9F4BA003F3430 /* Utils.swift */,
+				F346DC1029DB30F70048A3DE /* TutorialContentVC.swift */,
+				F346DC1229DB33C60048A3DE /* TutorialMasterVC.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -243,12 +249,14 @@
 				F364812329D2102D0051C7FD /* ProfileVC.swift in Sources */,
 				F3E4096729CCC3A100D3DDB5 /* CSLogButton.swift in Sources */,
 				F364812129D20A100051C7FD /* SideBarVC.swift in Sources */,
+				F346DC1129DB30F70048A3DE /* TutorialContentVC.swift in Sources */,
 				F3874C2029D9F4BA003F3430 /* Utils.swift in Sources */,
 				F38E522F29C4A84700ACB05C /* MemoCell.swift in Sources */,
 				F38E523129C4A8A400ACB05C /* MemoData.swift in Sources */,
 				F38E521829C48FD200ACB05C /* MyMemory.xcdatamodeld in Sources */,
 				F38E522B29C4A73E00ACB05C /* MemoFormVC.swift in Sources */,
 				F38E522D29C4A74F00ACB05C /* MemoReadVC.swift in Sources */,
+				F346DC1329DB33C60048A3DE /* TutorialMasterVC.swift in Sources */,
 				F38E520E29C48FD200ACB05C /* AppDelegate.swift in Sources */,
 				F364810D29D2071F0051C7FD /* SWRevealViewController.m in Sources */,
 				F38E522529C4A2B200ACB05C /* MemoListVC.swift in Sources */,
